@@ -1,0 +1,27 @@
+{
+  "name": "proxy-checker",
+  "version": "1.0.0",
+  "description": "在线代理检测工具",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": ["proxy", "checker", "koa"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "koa": "^2.15.0",
+    "koa-static": "^5.0.0",
+    "koa-router": "^12.0.1",
+    "koa-bodyparser": "^4.4.1",
+    "http-proxy-agent": "^7.0.0",
+    "https-proxy-agent": "^7.0.2",
+    "socks-proxy-agent": "^8.0.2",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
