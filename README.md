@@ -27,10 +27,10 @@ docker run -p 3000:3000 ghcr.io/chaos-zhu/proxy-checker:latest
 
 ```bash
 # 🌍 非大陆服务器
-docker run -p 8080:3000 ghcr.io/chaos-zhu/proxy-checker:latest
+docker run -d -p 8080:3000 ghcr.io/chaos-zhu/proxy-checker:latest
 
 # 🇨🇳 大陆服务器使用代理
-docker run -p 8080:3000 eo.278999.xyz/ghcr.io/chaos-zhu/proxy-checker:latest
+docker run -d -p 8080:3000 eo.278999.xyz/ghcr.io/chaos-zhu/proxy-checker:latest
 ```
 
 访问地址将变为 `http://localhost:8080`
